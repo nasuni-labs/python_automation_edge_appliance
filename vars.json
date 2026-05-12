@@ -1,0 +1,36 @@
+{
+    "Plain_Vars": {
+        "serial_number": "12345678-9012-3456-7890-123456789012",
+        "auth_code": "NMC",
+        "description": "example-filer1",
+        "dhcp_hostname": "example-filer1",
+        "network_setting": "dhcp2",
+        "dns_1": "12.3.4.5",
+        "dns_2": "67.8.9.10",
+        "dns_ad": "",
+        "nmc_join": true,
+        "proxy": false,
+        "default_gateway": "",
+        "search_domain": "",
+        "ad_fdqn": "domain1.example.com",
+        "omitted_domains": ["domain2.example.com"],
+        "computer_ou": "GENERIC_OU",
+        "key_vault_uri": "https://your-key-vault.vault.azure.net/",
+        "accept_eula": "y",
+        "edge_ip": "12.34.567.890",
+        "nmc_ip": "09.876.54.321",
+        "local_filer_settings": true,
+        "validate_ssl": true,
+        "headless_mode": true
+    },
+    "Key_Vault_Vars": {
+        "nmc_user": "nmc-user",
+        "nmc_pass": "nmc-pass",
+        "ad_username": "ad-user",
+        "ad_password": "ad-pass",
+        "edge_user": "edge-user",
+        "edge_pass": "edge-pass",
+        "api_user": "api-user",
+        "api_pass": "api-pass"
+    }
+}
