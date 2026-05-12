@@ -6,9 +6,9 @@ A list of python packages that are required and the versions they were tested on
 
 In addition to installing the packages, 'playwright install' must be run to install the playwright browsers.
 
-A list of required variables can be found in vars_example.json. 
+A list of required variables can be found in vars.json. 
 
-Any variables in vars_example.json that one wants pulled from a secret should be placed in the Key Vault Vars subdictionary.
+Any variables in vars.json that one wants pulled from a secret should be placed in the Key Vault Vars subdictionary.
 
 Anything that you want listed as plaintext can be placed in the Plain_Vars.
 
